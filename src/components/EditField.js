@@ -68,7 +68,7 @@ class EditField extends Component {
           <input type="submit" value="Submit" className="btn btn-success"/>
 
 
-          {/* <button type="submit" value="Submit" type="button" className="btn btn-success">Submit</button> */}
+
           <hr/>
 
         </form>

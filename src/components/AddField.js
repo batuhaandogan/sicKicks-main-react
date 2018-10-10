@@ -50,7 +50,7 @@ class AddField extends Component {
           <label>Details:</label>
 {/* <br/> */}
           <textarea name="details" value={this.state.details} onChange={ e => this.handleChange(e)} />
-          <br/>          <br/>
+          <br/>        
           <input type="submit" value="Submit" />
         </form>
       </div>

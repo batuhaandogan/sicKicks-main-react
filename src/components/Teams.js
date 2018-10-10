@@ -27,18 +27,20 @@ class Teams extends Component {
 
   render(){
     return(
-      <div>
+      <div className="teams-background">
                 <h1>See what teams have signed up!</h1>
 
         <div style={{width: '60%', float:"left"}}>
           { this.state.listOfTeams.map((team, index) => {
             return (
-              <div key={team._id}>
+              <div className="give-a-box" key={team._id}>
                 <Link to={`/teams/${team._id}`}>
                   <h3>{team.teamName} ({team.league})</h3>
                 </Link>
                 <hr/>
+                
               </div>
+              
             )})
           }
         </div>
