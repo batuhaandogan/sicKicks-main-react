@@ -90,14 +90,10 @@ componentWillReceiveProps(nextProps) {
             <br/>
             <h1>{this.state.loggedInUser.username}'s Profile</h1>
             <h1>Email: {this.state.loggedInUser.email} </h1>
-
-
-
-
-
-              </div>
-              <div className="background-image-class">
-              
+{/*             
+<div className="background-image-class">
+  
+</div> */}
               </div>
 
 <br/>

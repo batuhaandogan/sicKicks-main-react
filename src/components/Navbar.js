@@ -38,14 +38,10 @@ class Navbar extends Component {
         <nav className="nav-style">
           <ul>
             <li>Welcome, {this.state.loggedInUser.username}!</li>
-      {/* <br/> */}
             <li id="the-navbar-base">
               <Link to='/lobby' style={{ textDecoration: 'none' }}> Lobby </Link>
               <button className="btn btn-danger the-logout" onClick={()=>this.logout()}>Logout</button>
               </li>
-            {/* <li> */}
-              {/* <button onClick={()=>this.logout()}>Logout</button> */}
-            {/* </li> */}
           </ul>
         </nav>
       )
