@@ -161,9 +161,6 @@ padding: 0px;
 
 }
 
-.different-class {
-
-}
 
 .first-one {
 font-size: 30px;
@@ -221,9 +218,7 @@ li {
 }
 
 
-#the-navbar-base {
 
-}
 
 
 img {
@@ -250,7 +245,7 @@ div.field-details > a{
   background-position-y: -64px;
   width: 891px;
   position: absolute;
-  bottom: 305px;
+  bottom: 270px;
   left: 550px;
 }
 
